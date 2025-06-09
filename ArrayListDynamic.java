@@ -23,8 +23,16 @@ public class ArrayListDynamic {
 	        for (int i = 0; i < student.size(); i++) {
 	            System.out.println(student.get(i));
 	        }
-			
-		
+	        student.remove(1);
+	        System.out.println(student);
+	        String s="hello";
+	        if(student.equals(s)) {
+	        	System.out.println("yes");
+	        }else {
+	        	System.out.println("no");
+	        }
+	        int index=student.indexOf("grapes");
+	        System.out.println(index);
 	}
 
 }

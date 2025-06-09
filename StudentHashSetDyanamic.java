@@ -25,7 +25,7 @@ public class StudentHashSetDyanamic {
 		}
 		ArrayList<String> al=new ArrayList<>(hs);
 		System.out.println(al);
-		Iterator<String> il=new iterat
+		
 	}
 
 }
